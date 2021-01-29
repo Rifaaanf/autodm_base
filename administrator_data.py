@@ -125,7 +125,7 @@ Account_status = True
 # You can switch it using '#switch on/off' command from DM
 # If there are messages on DM when turned off, those will be posted when this bot switched to on
 
-Trigger_word = ["fess!", "blablabla!"]
+Trigger_word = ["rbase!", "blablabla!"]
 Notify_wrongTrigger = "Trigger menfess tidak terdeteksi, pesan kamu akan dikirimkan ke admin"
 # Message will be sent to admin
 Sensitive_word = "/sensitive"
