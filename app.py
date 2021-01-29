@@ -1,8 +1,8 @@
 # Original code by Prieyudha Akadita S.
 #     Source: https://https://github.com/ydhnwb/autodm_base
 
-# Re-code by Fakhri Catur Rofi under MIT License
-#     Source: https://github.com/fakhrirofi/twitter_autobase
+# Re-code by Rif'an Fatoni under MIT License
+#     Source: https://github.com/Rifaaanf/autodm_base
 
 from twitter import Twitter
 from time import sleep
