@@ -107,7 +107,7 @@ Keep_DM = True
 #     sleep(60)
 # for id in ids: api.destroy_direct_message(id)
 
-Database = True
+Database = False
 # bool, True: Using database (Make json file in local)
 Github_database = True # Push json file to Github
 # bool, True: using github to save database, False: database only in local
