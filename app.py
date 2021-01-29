@@ -2,7 +2,7 @@
 #     Source: https://https://github.com/ydhnwb/autodm_base
 
 # Re-code by Rif'an Fatoni under MIT License
-#     Source: https://github.com/Rifaaanf/autodm_base
+#     Source: https://github.com/Rif'an Fatoni/autodm_base
 
 from twitter import Twitter
 from time import sleep
@@ -148,7 +148,7 @@ class Autobase:
         indicator = {'idle', 'dm_safe'}
         Thread(target=self.__update_follow, args=[indicator]).start()
         while 'idle' in indicator:
-            sleep(10)
+            sleep(3)
         Thread(target=self.__update_dm, args=[dms, indicator]).start()
         # for i in administartor_data.Admin_id:
         #     sent = self.tw.send_dm(recipient_id=i, text="Twitter autobase is starting...!")
@@ -158,7 +158,7 @@ class Autobase:
 
                 # Cleaning dms
                 while 'dm_safe' not in indicator:
-                    sleep(10)
+                    sleep(1)
                 dmsCopy = dms.copy()
                 dms.clear()
 
@@ -247,11 +247,7 @@ class Autobase:
                         pass
 
             else:
-<<<<<<< HEAD
-                sleep(10)
-=======
                 sleep(3)
->>>>>>> parent of 8ce6ec0... Add files via upload
 
             
     def check_file_github(self, new=True):
@@ -325,11 +321,7 @@ class Autobase:
                         self.AdminCmd.filename_github = f"{self.bot_username} {datee.year}-{datee.month}-{datee.day}.json"
 
                 else:
-<<<<<<< HEAD
-                    sleep(10)
-=======
                     sleep(60)
->>>>>>> parent of 8ce6ec0... Add files via upload
 
             except Exception as ex:
                 print(ex)
