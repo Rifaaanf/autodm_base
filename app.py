@@ -1,8 +1,8 @@
 # Original code by Prieyudha Akadita S.
 #     Source: https://https://github.com/ydhnwb/autodm_base
 
-# Re-code by Fakhri Catur Rofi under MIT License
-#     Source: https://github.com/fakhrirofi/twitter_autobase
+# Re-code by Rif'an Fatoni under MIT License
+#     Source: https://github.com/Rifaaanf/autodm_base
 
 from twitter import Twitter
 from time import sleep
@@ -92,11 +92,12 @@ class Autobase:
 
                 except Exception as ex:
                     print(ex)
+                    sleep(60)
                     pass
             
             if 'idle' in indicator:
                 indicator.remove('idle')      
-            
+            sleep(67)
 
 
     def __update_dm(self, dms, indicator):
@@ -108,7 +109,7 @@ class Autobase:
             indicator.remove('dm_safe')
             dms.extend(dms_new)
             indicator.add('dm_safe')
-            
+            sleep(65)
     
 
     def update_local_file(self, sender_id, message, postid):
@@ -234,7 +235,7 @@ class Autobase:
                                 # credential.Notify_sent is False
                                 pass
                             
-                            
+                            sleep(30+self.tw.random_time)
 
                         else:
                             # Notify sender, message doesn't meet the algorithm's requirement
@@ -242,10 +243,15 @@ class Autobase:
 
                     except Exception as ex:
                         print(ex)
+                        sleep(30)
                         pass
 
             else:
+<<<<<<< HEAD
                 sleep(10)
+=======
+                sleep(3)
+>>>>>>> parent of 8ce6ec0... Add files via upload
 
             
     def check_file_github(self, new=True):
@@ -319,7 +325,11 @@ class Autobase:
                         self.AdminCmd.filename_github = f"{self.bot_username} {datee.year}-{datee.month}-{datee.day}.json"
 
                 else:
+<<<<<<< HEAD
                     sleep(10)
+=======
+                    sleep(60)
+>>>>>>> parent of 8ce6ec0... Add files via upload
 
             except Exception as ex:
                 print(ex)
