@@ -4,8 +4,7 @@
 
 # Re-code by Rif'an Fatoni under MIT License
 #     Source: https://github.com/Rifaaanf/autodm_base
-# Re-code by Fakhri Catur Rofi under MIT License
-#     Source: https://github.com/fakhrirofi/twitter_autobase
+
 
 from twitter import Twitter
 from time import sleep
@@ -50,7 +49,7 @@ from time import sleep
 
             else:
                 sleep(3)
-                sleep(1)
+                
 
             
     def check_file_github(self, new=True):
@@ -59,7 +58,7 @@ from time import sleep
 
                 else:
                     sleep(60)
-                    sleep(1)
+                    
 
             except Exception as ex:
                 print(ex)
