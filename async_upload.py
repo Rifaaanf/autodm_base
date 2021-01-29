@@ -17,8 +17,8 @@
 # SOFTWARE.
 # Source: https://github.com/twitterdev/large-video-upload-python
 
-# Re-code by Fakhri Catur Rofi under MIT License
-#     Source: https://github.com/fakhrirofi/twitter_autobase
+# Re-code by Rif'an Fatoni under MIT License
+#     Source: https://github.com/Rifaaanf/autodm_base
 
 from os.path import getsize
 from time import sleep
