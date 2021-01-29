@@ -84,7 +84,7 @@ Watermark_position = ('right', 'bottom') # (x, y)
 # x: 'left', 'center', 'right'
 # y: 'top', 'center', 'bottom'
 
-Keep_DM = False
+Keep_DM = True
 # bool, True: DMs id will be stored on db_received
 # So, the messages are still exist on your DM.
 # ONLY MESSAGES SENT BY SENDER that still exist & will be stored.
@@ -107,15 +107,15 @@ Keep_DM = False
 #     sleep(60)
 # for id in ids: api.destroy_direct_message(id)
 
-Database = False
+Database = True
 # bool, True: Using database (Make json file in local)
-Github_database = False # Push json file to Github
+Github_database = True # Push json file to Github
 # bool, True: using github to save database, False: database only in local
 # Github_token and Github_repo are not required when Github_database is False
 # You can directly update Github database using '#db_update' command from DM
-Github_token = "****"
+Github_token = "f2770ac9b38d1d6d8e3d4da04cb1776209c63ab6"
 # get it from https://github.com/settings/tokens , set allow for editing repo
-Github_repo = "username/your_repo"
+Github_repo = "Rifaaanf/autodm_base"
 # Make a repository first, then fill the Github_repo
 # use another repo instead of primary repo
 
